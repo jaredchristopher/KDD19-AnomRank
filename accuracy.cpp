@@ -1,5 +1,6 @@
 #include <vector>
 #include <iostream>
+#include <numeric>
 
 void compute_accuracy(double* as, bool* attack, int timeNum, int topN)
 {

@@ -1,4 +1,6 @@
 #include "edge.hpp"
+#include <vector>
+#include <algorithm>
 
 void inject(outEdge* A, int u, int v, int num)
 {
@@ -127,7 +129,7 @@ double inject_anomaly(int scenario, outEdge* A, int n, int edgeNum)
     return 0;
 }
 
-void inject_snapshot(int injectNum, int initSS, int testNum, vector<int>& snapshots, vector<int>& injectSS)
+void inject_snapshot(int injectNum, int initSS, int testNum, std::vector<int>& snapshots, std::vector<int>& injectSS)
 {
     int injected = 300;
     for(int i = 0; i < injectNum; i++)
