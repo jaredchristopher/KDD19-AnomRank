@@ -1,6 +1,6 @@
 ---
 triple:          'x86_64-apple-darwin'
-binary-path:     '/Users/jaredchristopher/_TENTECH/KDD19-AnomRank/main'
+binary-path:     '/Users/jaredchristopher/Desktop/_TENTECH/KDD19-AnomRank/main'
 relocations:
   - { offsetInCU: 0x5D18, offset: 0x5D18, size: 0x8, addend: 0x0, symName: '__ZNSt3__111__introsortINS_17_ClassicAlgPolicyERZ16compute_accuracyPdPbiiE3$_0PmLb0EEEvT1_S7_T0_NS_15iterator_traitsIS7_E15difference_typeEb', symObjAddr: 0x5F10, symBinAddr: 0x100006F10, symSize: 0x450 }
   - { offsetInCU: 0x5E46, offset: 0x5E46, size: 0x8, addend: 0x0, symName: '__ZNSt3__126__insertion_sort_unguardedB8ue170006INS_17_ClassicAlgPolicyERZ16compute_accuracyPdPbiiE3$_0PmEEvT1_S7_T0_', symObjAddr: 0x65F0, symBinAddr: 0x1000075F0, symSize: 0x110 }

@@ -6,6 +6,9 @@
 
 double* pagerank(outEdge* A, double* b, int n, int m, int version)
 {
+    double* nq = new double[n]; // Stores new PageRank values
+    double* nq_prev = new double[n]; // Stores the previous PageRank values
+
     // Initializes the PageRank vector b based ont he verison specified
     if(version == 1)
     {
@@ -18,8 +21,6 @@ double* pagerank(outEdge* A, double* b, int n, int m, int version)
             b[i] = c*A[i].total_w/m; // Weighted initialization if verison 2
     }
 
-    double* nq = new double[n]; // Stores new PageRank values
-    double* nq_prev = new double[n]; // Stores the previous PageRank values
     for(int i = 0; i < n; i++)
     {
         nq[i] = 0;  // Initializes the PageRank array nq with 0

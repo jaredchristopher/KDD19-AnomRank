@@ -61,7 +61,7 @@ double inject_anomaly(int scenario, outEdge* A, int n, int edgeNum)
                 for(int i = 0; i < edgeNum; i++)
                     inject(A, u, A[u].out[i], 1);
             }
-            // If edgeNum is not less than any outEdge a fraction of the edgeNum will be added will be injected to every outEdge evenly
+            // If edgeNum is not less than any outEdge a fraction of the edgeNum will be added to every outEdge evenly
             else
             {
                 int edgeOne = edgeNum/A[u].out.size();

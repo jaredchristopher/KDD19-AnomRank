@@ -10,6 +10,7 @@
 #include "anomaly_inject.cpp"
 #include "pagerank.cpp"
 #include "read_data.cpp"
+#include "calculate_area.cpp"
 
 #define attackLimit 50
 
