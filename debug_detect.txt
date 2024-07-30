@@ -1,0 +1,2 @@
+Starting normalize_online function with n = 33221, t = 1Anomaly score computed: 2000
+Finished compute_anomaly_score.

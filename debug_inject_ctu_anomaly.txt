@@ -1,0 +1,2 @@
+Injecting anomaly with scenario 1, n = 256, edgeNum = 50
+Anomaly injected (scenario 1) for node 180 to 75
